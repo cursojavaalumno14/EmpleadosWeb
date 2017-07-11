@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context docBase="empleadosweb" path="/empleadosweb" reloadable="true">
+<Resource
+	name="jdbc/pool"
+	auth="Container"
+	type="javax.sql.DataSource"
+	username="HR"
+	password="adalid"
+	driverClassName="oracle.jdbc.driver.OracleDriver"
+	url="jdbc:oracle:thin:@127.0.0.1:1521:xe"
+	maxActive="30"
+	maxIdle="10"
+	
+ />
+</Context>
